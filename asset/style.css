@@ -27,15 +27,15 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(221, 78%, 55%);
 }
 
 .card {
-  background-color: hsl(110, 32%, 47%);
+  background-color: hsl(226, 56%, 37%);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(204, 17%, 83%);
   font-size: 24px;
   margin: 0 auto;
   max-width: 800px;
@@ -56,10 +56,19 @@ header {
 }
 
 .select {
+  margin-top: 5px;
+}
 
+.length {
+  text-align: center;
+}
+
+#symbol {
+  
 }
 .card-footer {
   text-align: center;
+  font-size: larger;
 }
 
 .card-footer::before {
@@ -76,9 +85,9 @@ header {
   clear: both;
 }
 
-.btn {
+#generate {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: hsl(221, 78%, 55%);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -108,11 +117,11 @@ button[disabled] {
   border: none;
   display: block;
   width: 100%;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 15px;
-  font-size: 1.2rem;
+  padding-bottom: 5px;
+  font-size: x-large;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 5px;
